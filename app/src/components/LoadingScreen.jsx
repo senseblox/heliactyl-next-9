@@ -98,8 +98,8 @@ export default function LoadingScreen({ onComplete }) {
             </div>
 
             <div className="relative text-center mt-6">
-              <p className="text-white/70 text-center font-medium text-xs mb-1">Heliactyl Next 9 (Namek)</p>
-              <p className="text-white/50 text-center text-xs">&copy; 2025 Altare Global IBC.</p>
+              <p className="text-white/70 text-center font-medium text-xs mb-1">Loading the TailHost Dashboard..</p>
+              <p className="text-white/50 text-center text-xs">&copy; 2025 TailHost UK & Ireland.</p>
             </div>
           </div>
         </motion.div>
