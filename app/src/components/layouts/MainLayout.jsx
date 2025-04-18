@@ -406,8 +406,8 @@ const MainLayout = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="font-medium text-white text-sm">Warning: slow API response times</h3>
-                <p className="text-xs mt-1 text-white/60">Altare is experiencing high demand. Some features may be slower than usual.</p>
+                <h3 className="font-medium text-white text-sm">Information: ALPHA State</h3>
+                <p className="text-xs mt-1 text-white/60">TailHost's Dashboard is in a early ALPHA stage. It is not perfect and could occasionally have bugs, contact an admin if so.</p>
               </div>
               <button 
                 onClick={() => setShowLatencyWarning(false)}
@@ -435,7 +435,7 @@ const MainLayout = () => {
           
           {/* Logo */}
           <Link to="/dashboard" className="flex items-center space-x-2">
-            <img src="https://i.imgur.com/T5MMCrb.png" alt="Altare" className="h-8 w-auto" />
+            <img src="https://i.postimg.cc/0ypkKwYD/Picsart-25-04-11-17-08-49-483.png" alt="Altare" className="h-8 w-auto" />
           </Link>
             </div>
 
