@@ -226,8 +226,8 @@ const AuthPage = () => {
       {/* Logo Section */}
       <div className="mb-10">
         <img
-          src="https://i.imgur.com/7zpklSZ.png"
-          alt="Altare"
+          src="https://i.postimg.cc/0ypkKwYD/Picsart-25-04-11-17-08-49-483.png"
+          alt="Logo"
           className="h-10 w-auto hover:opacity-90 transition-opacity"
         />
       </div>
@@ -236,7 +236,7 @@ const AuthPage = () => {
       <div className="w-full max-w-md bg-transparent border border-[#2e3337] rounded-lg overflow-hidden">
         <div className="p-6 pb-4 border-b border-[#2e3337]">
           <h2 className="text-2xl text-white font-medium text-center">
-            Welcome to Altare
+            Welcome to TailHost
           </h2>
           <p className="text-[#95a1ad] text-sm text-center mt-2">
             Sign in to continue to your dashboard
@@ -301,10 +301,10 @@ const AuthPage = () => {
       <footer className="w-full py-8 px-4 mt-10">
         <div className="max-w-md mx-auto text-center">
           <p className="text-sm text-[#95a1ad]">
-            © {new Date().getFullYear()} Altare Global IBC. All rights reserved.
+            © {new Date().getFullYear()} TailHost UK & Ireland. All rights reserved.
           </p>
           <p className="text-xs text-[#95a1ad]/70 mt-0.5">
-            Powered by Heliactyl Next<br />Designed, developed and built by Ether
+            Powered by Heliactyl Next 9<br />Modified by faze.real
           </p>
         </div>
       </footer>
