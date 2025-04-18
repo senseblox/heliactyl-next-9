@@ -821,7 +821,7 @@ const MainLayout = () => {
                       </button>
                     ) : (
                       <Link to="/dashboard" className="flex items-center gap-3">
-                        <img src="https://i.imgur.com/T5MMCrb.png" alt="Logo" className="w-auto h-8" />
+                        <img src="https://i.postimg.cc/0ypkKwYD/Picsart-25-04-11-17-08-49-483.png" alt="Logo" className="w-auto h-8" />
                       </Link>
                     )}
                     <button 
@@ -986,7 +986,7 @@ const MainLayout = () => {
                     
                     {/* Copyright */}
                     <div className="flex items-center justify-between text-[#95a1ad] text-xs">
-                      <span>&copy; 2025 Altare Global IBC.</span>
+                      <span>&copy; 2025 TailHost UK & Ireland</span>
                       
                       {/* Menu Items */}
                       <div className="relative" ref={menuDropdownRef}>
