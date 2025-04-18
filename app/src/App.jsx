@@ -174,7 +174,7 @@ const RootRedirect = () => {
   const hostname = window.location.hostname;
   
   // Check if it's the console subdomain
-  if (hostname === 'console.altare.pro') {
+  if (hostname === 'dash.tailhost.uk') {
     return <Navigate to="/dashboard" replace />;
   }
   
