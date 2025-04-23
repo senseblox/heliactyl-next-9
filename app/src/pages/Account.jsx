@@ -158,7 +158,7 @@ const AccountPage = () => {
           <div className="flex items-center gap-4">
             <div className="h-20 w-20 rounded-full bg-[#222427] border border-white/5 flex items-center justify-center overflow-hidden">
               <img 
-                src="https://i.imgur.com/YuP6YrU.png" 
+                src="https://i.postimg.cc/MG8KtSPF/image-5.png" 
                 alt={userData.username}
                 className="h-full w-full object-cover"
                 onError={(e) => {
