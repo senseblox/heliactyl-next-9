@@ -226,7 +226,7 @@ const AuthPage = () => {
       {/* Logo Section */}
       <div className="mb-10">
         <img
-          src="https://i.postimg.cc/0ypkKwYD/Picsart-25-04-11-17-08-49-483.png"
+          src="https://i.postimg.cc/prQmYdxk/Picsart-25-04-23-22-18-40-396.png"
           alt="Logo"
           className="h-10 w-auto hover:opacity-90 transition-opacity"
         />
@@ -236,10 +236,10 @@ const AuthPage = () => {
       <div className="w-full max-w-md bg-transparent border border-[#2e3337] rounded-lg overflow-hidden">
         <div className="p-6 pb-4 border-b border-[#2e3337]">
           <h2 className="text-2xl text-white font-medium text-center">
-            Welcome to TailHost
+            Aetherix Dashboard
           </h2>
           <p className="text-[#95a1ad] text-sm text-center mt-2">
-            Sign in to continue to your dashboard
+            Authenticate using one of the methods below:
           </p>
         </div>
 
@@ -253,7 +253,7 @@ const AuthPage = () => {
           >
             <DiscordIcon className="h-5 w-5 absolute left-3" />
             <span className="font-medium text-sm">
-              {isLoading ? 'Ok, one moment...' : 'Continue with Discord OAuth2'}
+              {isLoading ? 'Ok, one moment...' : 'Authenticate with Discord Account'}
             </span>
           </button>
 
@@ -280,7 +280,7 @@ const AuthPage = () => {
                       Authenticating...
                     </span>
                   ) : (
-                    'Sign in with passkey'
+                    'Authenticate with Passkey (NEW)'
                   )}
                 </span>
               </button>
@@ -301,10 +301,10 @@ const AuthPage = () => {
       <footer className="w-full py-8 px-4 mt-10">
         <div className="max-w-md mx-auto text-center">
           <p className="text-sm text-[#95a1ad]">
-            © {new Date().getFullYear()} TailHost UK & Ireland. All rights reserved.
+            © {new Date().getFullYear()} 2025 Aetherix Development UK
           </p>
           <p className="text-xs text-[#95a1ad]/70 mt-0.5">
-            Powered by Heliactyl Next 9<br />Modified by faze.real
+            Powered by Crynox<br />Original by Ether
           </p>
         </div>
       </footer>
