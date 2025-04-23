@@ -124,22 +124,22 @@ const MainLayout = () => {
   const iconNavItems = [
     { 
       icon: <ServerStackIcon className="w-5 h-5" />,
-      label: 'My servers',
+      label: 'Instances',
       path: '/dashboard'
     },
     { 
       icon: <ShoppingBagIcon className="w-5 h-5" />,
-      label: 'Store',
+      label: 'Storefront',
       path: '/coins/store'
     },
     {
       icon: <CircleStackIcon className="w-5 h-5" />,
-      label: 'Earn coins',
+      label: 'Economy',
       path: '/coins/afk'
     },
     {
       icon: <GiftIcon className="w-5 h-5" />,
-      label: 'Daily rewards',
+      label: 'Daily Reward',
       path: '/coins/daily'
     }
   ];
@@ -161,7 +161,7 @@ const MainLayout = () => {
   const serverNavItems = [
     { 
       icon: <WindowIcon className="w-5 h-5" />,
-      label: 'Overview',
+      label: 'Console',
       path: `/server/${id}/overview`
     },
     { 
@@ -171,7 +171,7 @@ const MainLayout = () => {
     },
     { 
       icon: <GlobeAltIcon className="w-5 h-5" />,
-      label: 'Network',
+      label: 'Networking',
       path: `/server/${id}/network`
     },
     { 
@@ -186,12 +186,12 @@ const MainLayout = () => {
     },
     {
       icon: <Cog6ToothIcon className="w-5 h-5" />,
-      label: 'Settings',
+      label: 'Config',
       path: `/server/${id}/settings`
     },
     {
       icon: <CubeIcon className="w-5 h-5" />,
-      label: 'Package',
+      label: 'Details',
       path: `/server/${id}/package`
     },
     {
@@ -209,13 +209,13 @@ const MainLayout = () => {
   const menuItems = [
     {
       icon: <LinkIcon className="w-4 h-4" />,
-      label: 'Discord server',
-      path: 'https://discord.gg/altare',
+      label: 'Discord',
+      path: 'https://discord.gg/wyrzVdptnD',
       external: true
     },
     {
       icon: <ArrowRightOnRectangleIcon className="w-4 h-4" />,
-      label: 'Logout',
+      label: 'Sign Out',
       action: handleLogout,
       className: 'text-red-400 hover:text-red-300 hover:bg-red-950/30'
     }
@@ -406,8 +406,8 @@ const MainLayout = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="font-medium text-white text-sm">Information: ALPHA State</h3>
-                <p className="text-xs mt-1 text-white/60">TailHost's Dashboard is in a early ALPHA stage. It is not perfect and could occasionally have bugs, contact an admin if so.</p>
+                <h3 className="font-medium text-white text-sm">Welcome to Aetherix.</h3>
+                <p className="text-xs mt-1 text-white/60">Codename: Namek V2 Legacy | If you encounter an issue please make a Technical Ticket.</p>
               </div>
               <button 
                 onClick={() => setShowLatencyWarning(false)}
@@ -435,7 +435,7 @@ const MainLayout = () => {
           
           {/* Logo */}
           <Link to="/dashboard" className="flex items-center space-x-2">
-            <img src="https://i.postimg.cc/0ypkKwYD/Picsart-25-04-11-17-08-49-483.png" alt="Altare" className="h-8 w-auto" />
+            <img src="https://i.postimg.cc/prQmYdxk/Picsart-25-04-23-22-18-40-396.png" alt="Altare" className="h-8 w-auto" />
           </Link>
             </div>
 
@@ -817,11 +817,11 @@ const MainLayout = () => {
                         className="flex items-center gap-2 text-white border border-[#3f4147] rounded-lg px-3 py-2 hover:text-white/90 transition-all duration-200 active:scale-95"
                       >
                         <ArrowLeftIcon className="w-5 h-5" />
-                        <span>Back to Dashboard</span>
+                        <span>Return</span>
                       </button>
                     ) : (
                       <Link to="/dashboard" className="flex items-center gap-3">
-                        <img src="https://i.postimg.cc/0ypkKwYD/Picsart-25-04-11-17-08-49-483.png" alt="Logo" className="w-auto h-8" />
+                        <img src="https://i.postimg.cc/prQmYdxk/Picsart-25-04-23-22-18-40-396.png" alt="Logo" className="w-auto h-8" />
                       </Link>
                     )}
                     <button 
@@ -911,7 +911,7 @@ const MainLayout = () => {
                           >
                             <div className="flex items-center gap-3">
                               <EllipsisHorizontalIcon className="w-5 h-5" />
-                              <span>More</span>
+                              <span>Others</span>
                             </div>
                             <ChevronDownIcon className={`w-4 h-4 transition-transform duration-300 ${moreDropdownOpen ? 'rotate-180' : ''}`} />
                           </button>
@@ -986,7 +986,7 @@ const MainLayout = () => {
                     
                     {/* Copyright */}
                     <div className="flex items-center justify-between text-[#95a1ad] text-xs">
-                      <span>&copy; 2025 TailHost UK & Ireland</span>
+                      <span>&copy; Aetherix Development UK</span>
                       
                       {/* Menu Items */}
                       <div className="relative" ref={menuDropdownRef}>
