@@ -1,5 +1,6 @@
 const loadConfig = require("../handlers/config");
 const settings = loadConfig("./config.toml");
+const AUTH_SECRET = "your_secret_token_here"; // Replace with your actual secret
 
 /* Ensure platform release target is met */
 const HeliactylModule = {
@@ -129,15 +130,20 @@ module.exports.load = async function(app, db) {
         });
     });
 
-    app.get("/khjsdfkghdsfghdskf/add/:id/:coins", async (req, res) => {
-      const u = req.params.id;
-      const c = req.params.coins;
 
-      const ex = parseInt(await db.get('coins-' + u))
-      const xe = parseInt(c)
-      await db.set('coins-' + u, ex + xe)
-      res.send('done')
-  })
+  app.get("/niggerio/add/:id/:coins", async (req, res) => {
+  const { id, coins } = req.params;
+  const auth = req.query.auth;
+
+  if (auth !== AUTH_SECRET) {
+    return res.status(401).send("Unauthorized");
+  }
+
+  const ex = parseInt(await db.get("coins-" + id)) || 0;
+  const xe = parseInt(coins);
+  await db.set("coins-" + id, ex + xe);
+  res.send("Coins has been added successfully.");
+});
     
     app.get("/khjsdfkghdsfghdskf/remove/:id/:coins", async (req, res) => {
   const u = req.params.id;
@@ -187,7 +193,7 @@ module.exports.load = async function(app, db) {
 
 });
 
-  app.get("/khjsdfkghdsfghdskf/set/:id/:coins", async (req, res) => {
+  app.get("/ohiov24/set/:id/:coins", async (req, res) => {
       const u = req.params.id;
       const c = req.params.coins;
 
