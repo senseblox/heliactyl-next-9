@@ -124,22 +124,22 @@ const MainLayout = () => {
   const iconNavItems = [
     { 
       icon: <ServerStackIcon className="w-5 h-5" />,
-      label: 'Instances',
+      label: 'Your Servers',
       path: '/dashboard'
     },
     { 
       icon: <ShoppingBagIcon className="w-5 h-5" />,
-      label: 'Storefront',
+      label: 'Trilex Store',
       path: '/coins/store'
     },
     {
       icon: <CircleStackIcon className="w-5 h-5" />,
-      label: 'Economy',
+      label: 'AFk for Coins',
       path: '/coins/afk'
     },
     {
       icon: <GiftIcon className="w-5 h-5" />,
-      label: 'Daily Reward',
+      label: 'Daily Rewards',
       path: '/coins/daily'
     }
   ];
@@ -435,7 +435,7 @@ const MainLayout = () => {
           
           {/* Logo */}
           <Link to="/dashboard" className="flex items-center space-x-2">
-            <img src="https://i.postimg.cc/prQmYdxk/Picsart-25-04-23-22-18-40-396.png" alt="Altare" className="h-8 w-auto" />
+            <img src="https://i.postimg.cc/rwyRW2TW/Picsart-25-04-30-11-12-04-372.png" alt="Altare" className="h-8 w-auto" />
           </Link>
             </div>
 
@@ -821,7 +821,7 @@ const MainLayout = () => {
                       </button>
                     ) : (
                       <Link to="/dashboard" className="flex items-center gap-3">
-                        <img src="https://i.postimg.cc/prQmYdxk/Picsart-25-04-23-22-18-40-396.png" alt="Logo" className="w-auto h-8" />
+                        <img src="https://i.postimg.cc/rwyRW2TW/Picsart-25-04-30-11-12-04-372.png" alt="Logo" className="w-auto h-8" />
                       </Link>
                     )}
                     <button 
