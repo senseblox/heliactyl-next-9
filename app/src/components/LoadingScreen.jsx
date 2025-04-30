@@ -98,8 +98,8 @@ export default function LoadingScreen({ onComplete }) {
             </div>
 
             <div className="relative text-center mt-6">
-              <p className="text-white/70 text-center font-medium text-xs mb-1">Loading Aetherix Dashboard..</p>
-              <p className="text-white/50 text-center text-xs">&copy; 2025 Aetherix Technology UK.</p>
+              <p className="text-white/70 text-center font-medium text-xs mb-1">Trilex Host</p>
+              <p className="text-white/50 text-center text-xs">&copy; 2025 Trilex Host.</p>
             </div>
           </div>
         </motion.div>
