@@ -406,8 +406,8 @@ const MainLayout = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="font-medium text-white text-sm">Welcome to Aetherix.</h3>
-                <p className="text-xs mt-1 text-white/60">Codename: Namek V2 Legacy | If you encounter an issue please make a Technical Ticket.</p>
+                <h3 className="font-medium text-white text-sm">Trilex Host</h3>
+                <p className="text-xs mt-1 text-white/60">Codename: Namek V2 Legacy | If you encounter an issue please make a support ticket.</p>
               </div>
               <button 
                 onClick={() => setShowLatencyWarning(false)}
@@ -725,7 +725,7 @@ const MainLayout = () => {
                 onClick={() => setMenuDropdownOpen(!menuDropdownOpen)}
                 className="w-full flex items-center justify-between py-2 text-[#95a1ad] hover:text-white transition-all duration-200 active:scale-95"
               >
-                <span className="text-xs">&copy; 2025 Altare Global IBC.</span>
+                <span className="text-xs">&copy; 2025 Trilex Host.</span>
                 <EllipsisVerticalIcon className="w-5 h-5" />
               </button>
               
