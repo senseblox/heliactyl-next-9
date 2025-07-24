@@ -124,22 +124,22 @@ const MainLayout = () => {
   const iconNavItems = [
     { 
       icon: <ServerStackIcon className="w-5 h-5" />,
-      label: 'Your Servers',
+      label: 'Instances',
       path: '/dashboard'
     },
     { 
       icon: <ShoppingBagIcon className="w-5 h-5" />,
-      label: 'Trilex Store',
+      label: 'Shopping',
       path: '/coins/store'
     },
     {
       icon: <CircleStackIcon className="w-5 h-5" />,
-      label: 'AFk for Coins',
+      label: 'AFK Coins',
       path: '/coins/afk'
     },
     {
       icon: <GiftIcon className="w-5 h-5" />,
-      label: 'Daily Rewards',
+      label: 'Daily Coins',
       path: '/coins/daily'
     }
   ];
@@ -148,7 +148,7 @@ const MainLayout = () => {
   const moreNavItems = [
     {
       icon: <RocketLaunchIcon className="w-5 h-5" />,
-      label: 'Boosts',
+      label: 'Upgrades',
       path: '/boosts'
     },
     {
@@ -171,27 +171,27 @@ const MainLayout = () => {
     },
     { 
       icon: <GlobeAltIcon className="w-5 h-5" />,
-      label: 'Networking',
+      label: 'Network',
       path: `/server/${id}/network`
     },
     { 
       icon: <CloudArrowDownIcon className="w-5 h-5" />,
-      label: 'Backups',
+      label: 'Snapshots',
       path: `/server/${id}/backups`
     },
     {
       icon: <UsersIcon className="w-5 h-5" />,
-      label: 'Users',
+      label: 'Subusers',
       path: `/server/${id}/users`
     },
     {
       icon: <Cog6ToothIcon className="w-5 h-5" />,
-      label: 'Config',
+      label: 'Settings',
       path: `/server/${id}/settings`
     },
     {
       icon: <CubeIcon className="w-5 h-5" />,
-      label: 'Details',
+      label: 'Package',
       path: `/server/${id}/package`
     },
     {
@@ -209,13 +209,13 @@ const MainLayout = () => {
   const menuItems = [
     {
       icon: <LinkIcon className="w-4 h-4" />,
-      label: 'Discord',
-      path: 'https://discord.gg/wyrzVdptnD',
+      label: 'Community',
+      path: 'https://discord.gg/abrdRz2NyD',
       external: true
     },
     {
       icon: <ArrowRightOnRectangleIcon className="w-4 h-4" />,
-      label: 'Sign Out',
+      label: 'Log Out',
       action: handleLogout,
       className: 'text-red-400 hover:text-red-300 hover:bg-red-950/30'
     }
@@ -435,7 +435,7 @@ const MainLayout = () => {
           
           {/* Logo */}
           <Link to="/dashboard" className="flex items-center space-x-2">
-            <img src="https://i.postimg.cc/rwyRW2TW/Picsart-25-04-30-11-12-04-372.png" alt="Altare" className="h-8 w-auto" />
+            <img src="https://i.postimg.cc/RZssYssL/Picsart-25-07-24-23-50-19-936.png" alt="Logo" className="h-8 w-auto" />
           </Link>
             </div>
 
@@ -821,7 +821,7 @@ const MainLayout = () => {
                       </button>
                     ) : (
                       <Link to="/dashboard" className="flex items-center gap-3">
-                        <img src="https://i.postimg.cc/rwyRW2TW/Picsart-25-04-30-11-12-04-372.png" alt="Logo" className="w-auto h-8" />
+                        <img src="https://i.postimg.cc/RZssYssL/Picsart-25-07-24-23-50-19-936.png" alt="Logo" className="w-auto h-8" />
                       </Link>
                     )}
                     <button 
