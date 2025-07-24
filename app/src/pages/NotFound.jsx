@@ -7,7 +7,7 @@ const NotFound = () => {
   return (
     <div className="bg-neutral-950 min-h-screen flex items-center justify-center p-4">
       <div className="text-sm text-neutral-400">
-        404 - Tough Luck, Seems like this page does not exist! 
+        404 | Nothing to see here brotein shake 🙏
       </div>
     </div>
   );
