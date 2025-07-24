@@ -226,7 +226,7 @@ const AuthPage = () => {
       {/* Logo Section */}
       <div className="mb-10">
         <img
-          src="https://i.postimg.cc/rwyRW2TW/Picsart-25-04-30-11-12-04-372.png"
+          src="https://i.postimg.cc/RZssYssL/Picsart-25-07-24-23-50-19-936.png"
           alt="Logo"
           className="h-10 w-auto hover:opacity-90 transition-opacity"
         />
@@ -236,10 +236,10 @@ const AuthPage = () => {
       <div className="w-full max-w-md bg-transparent border border-[#2e3337] rounded-lg overflow-hidden">
         <div className="p-6 pb-4 border-b border-[#2e3337]">
           <h2 className="text-2xl text-white font-medium text-center">
-            MyTrilex™️
+            Tailhost Console
           </h2>
           <p className="text-[#95a1ad] text-sm text-center mt-2">
-            Login to Continue to our MyTrilex:
+            Welcome to Tailhost. Login to continue.
           </p>
         </div>
 
@@ -253,7 +253,7 @@ const AuthPage = () => {
           >
             <DiscordIcon className="h-5 w-5 absolute left-3" />
             <span className="font-medium text-sm">
-              {isLoading ? 'Ok, one moment...' : 'Login with Discord'}
+              {isLoading ? 'Ok, one moment...' : 'Discord Login'}
             </span>
           </button>
 
@@ -277,10 +277,10 @@ const AuthPage = () => {
                   {isPasskeyLoading ? (
                     <span className="flex items-center gap-2">
                       <RefreshCw className="w-4 h-4 animate-spin" />
-                      Authenticating...
+                      Loading...
                     </span>
                   ) : (
-                    'Login with a Passkey'
+                    'Passkey Login (BETA)'
                   )}
                 </span>
               </button>
@@ -301,10 +301,10 @@ const AuthPage = () => {
       <footer className="w-full py-8 px-4 mt-10">
         <div className="max-w-md mx-auto text-center">
           <p className="text-sm text-[#95a1ad]">
-            © {new Date().getFullYear()} Trilex Host
+            © {new Date().getFullYear()} Tailhost.uk
           </p>
           <p className="text-xs text-[#95a1ad]/70 mt-0.5">
-            Maintained by Trilex<br />Original by Ether
+            Maintained by Tailhost<br />Original by Matt James
           </p>
         </div>
       </footer>
